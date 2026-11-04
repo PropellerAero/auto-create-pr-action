@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim
+FROM debian:bookworm-slim
 
 LABEL "com.github.actions.name"="auto-create-pr-action"
 LABEL "com.github.actions.description"="Auto create a pull request when a new branch is _pushed_"
